@@ -1,0 +1,11 @@
+query getTenantInfo {
+  currentTenant {
+    id
+    name
+    faqPage
+  }
+  currentUser {
+    id
+    outstandingRating
+  }
+}
