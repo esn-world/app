@@ -22,7 +22,7 @@ import {
 } from '@tumi/legacy-app/generated/generated';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { UntypedFormControl, Validators } from '@angular/forms';
-import { Price } from '../../../../../../../shared/data-types';
+import {Price} from "@tumi/legacy-app/models";
 import { PermissionsService } from '@tumi/legacy-app/modules/shared/services/permissions.service';
 import { loadStripe } from '@stripe/stripe-js';
 import { environment } from '../../../../../environments/environment';

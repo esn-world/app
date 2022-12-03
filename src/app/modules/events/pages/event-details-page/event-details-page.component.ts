@@ -25,7 +25,7 @@ import {
 } from '@tumi/legacy-app/generated/generated';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Price } from '../../../../../../../shared/data-types';
+import {Price} from "@tumi/legacy-app/models";
 import { PermissionsService } from '@tumi/legacy-app/modules/shared/services/permissions.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { TraceClassDecorator } from '@sentry/angular';

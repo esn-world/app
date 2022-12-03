@@ -17,7 +17,7 @@ import {
   TransactionDirection,
 } from '@tumi/legacy-app/generated/generated';
 import { MatDialog } from '@angular/material/dialog';
-import { Price } from '../../../../../../../../shared/data-types';
+import {Price} from "@tumi/legacy-app/models";
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { PermissionsService } from '@tumi/legacy-app/modules/shared/services/permissions.service';
 import { loadStripe } from '@stripe/stripe-js/pure';

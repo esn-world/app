@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 import { LoadEventQuery, Role } from '@tumi/legacy-app/generated/generated';
 import { DateTime } from 'luxon';
-import { Price } from '../../../../../../../shared/data-types';
+import {Price} from "@tumi/legacy-app/models";
 
 @Component({
   selector: 'app-event-header',
